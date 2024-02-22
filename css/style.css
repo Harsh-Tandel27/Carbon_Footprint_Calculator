@@ -1,0 +1,65 @@
+#announcement-panel {
+  /* padding-bottom: 0px; */
+  width: 120%;
+}
+
+#announcement-header,
+#announcement-subheader {
+  color: rgb(255, 4, 0);
+  /* background-color: rgb(0, 0, 0); */
+  padding: 5px;
+  /* margin-left: 550px; */
+  animation: blink 1s linear infinite;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#announcement-header {
+  font-size: 30px;
+}
+
+#announcement-subheader {
+  font-size: 2em;
+}
+
+.imglogo {
+  max-width: 20%;
+}
+
+#form,
+#results {
+  padding: 40px;
+}
+
+#announcement-panel {
+  background-image: url(https://mbmcgardencity.com/wp-content/uploads/2022/02/MBMC-Logo.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#home-energy-label,
+.fa-home {
+  color: #ff8c00;
+}
+
+#travel-label,
+.fa-globe {
+  color: #008b8b;
+}
+
+#waste-label,
+.fa-recycle {
+  color: #228b22;
+}
+
+.progress-bar {
+  font-size: 1.2em;
+}
+
+.score-info {
+  padding: 16px;
+  margin: 0;
+  font-size: 20px;
+}
